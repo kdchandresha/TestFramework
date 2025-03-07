@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-01T21:36:15 IST" name="Suite" finished-at="2025-03-01T21:36:36 IST" duration-ms="21019">
+    <groups>
+      <group name="purchase">
+        <method signature="PlaceOrdderTest.SubmitOrd(java.util.HashMap)[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@3aa078fd]" name="SubmitOrd" class="TestFramework.Tests.PlaceOrdderTest"/>
+        <method signature="PlaceOrdderTest.orderVerification(java.util.HashMap)[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@3aa078fd]" name="orderVerification" class="TestFramework.Tests.PlaceOrdderTest"/>
+      </group> <!-- purchase -->
+      <group name="Error Handling">
+        <method signature="ErrorValidation.SubmitOrdValidationError()[pri:0, instance:TestFramework.Tests.ErrorValidation@1cf56a1c]" name="SubmitOrdValidationError" class="TestFramework.Tests.ErrorValidation"/>
+        <method signature="ErrorValidation.loginError()[pri:0, instance:TestFramework.Tests.ErrorValidation@1cf56a1c]" name="loginError" class="TestFramework.Tests.ErrorValidation"/>
+      </group> <!-- Error Handling -->
+    </groups>
+    <test started-at="2025-03-01T21:36:15 IST" name="Error Validation" finished-at="2025-03-01T21:36:26 IST" duration-ms="11720">
+      <class name="TestFramework.Tests.ErrorValidation">
+        <test-method is-config="true" signature="launchBrwoser()[pri:0, instance:TestFramework.Tests.ErrorValidation@1cf56a1c]" started-at="2025-03-01T21:36:15 IST" name="launchBrwoser" finished-at="2025-03-01T21:36:17 IST" duration-ms="2728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrwoser -->
+        <test-method signature="SubmitOrdValidationError()[pri:0, instance:TestFramework.Tests.ErrorValidation@1cf56a1c]" started-at="2025-03-01T21:36:17 IST" name="SubmitOrdValidationError" finished-at="2025-03-01T21:36:21 IST" duration-ms="3901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrdValidationError -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestFramework.Tests.ErrorValidation@1cf56a1c]" started-at="2025-03-01T21:36:21 IST" name="closeBrowser" finished-at="2025-03-01T21:36:21 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrwoser()[pri:0, instance:TestFramework.Tests.ErrorValidation@1cf56a1c]" started-at="2025-03-01T21:36:21 IST" name="launchBrwoser" finished-at="2025-03-01T21:36:25 IST" duration-ms="3489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrwoser -->
+        <test-method signature="loginError()[pri:0, instance:TestFramework.Tests.ErrorValidation@1cf56a1c]" started-at="2025-03-01T21:36:25 IST" name="loginError" finished-at="2025-03-01T21:36:26 IST" duration-ms="1186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginError -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestFramework.Tests.ErrorValidation@1cf56a1c]" started-at="2025-03-01T21:36:26 IST" name="closeBrowser" finished-at="2025-03-01T21:36:26 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestFramework.Tests.ErrorValidation -->
+    </test> <!-- Error Validation -->
+    <test started-at="2025-03-01T21:36:15 IST" name="Submit Order" finished-at="2025-03-01T21:36:36 IST" duration-ms="21019">
+      <class name="TestFramework.Tests.PlaceOrdderTest">
+        <test-method is-config="true" signature="launchBrwoser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@3aa078fd]" started-at="2025-03-01T21:36:15 IST" name="launchBrwoser" finished-at="2025-03-01T21:36:17 IST" duration-ms="2560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrwoser -->
+        <test-method signature="SubmitOrd(java.util.HashMap)[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@3aa078fd]" started-at="2025-03-01T21:36:17 IST" name="SubmitOrd" data-provider="getData" finished-at="2025-03-01T21:36:23 IST" duration-ms="5191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ZARA COAT 3, password=Auto@123, email=kcautotest@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrd -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@3aa078fd]" started-at="2025-03-01T21:36:23 IST" name="closeBrowser" finished-at="2025-03-01T21:36:23 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrwoser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@3aa078fd]" started-at="2025-03-01T21:36:23 IST" name="launchBrwoser" finished-at="2025-03-01T21:36:26 IST" duration-ms="3209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrwoser -->
+        <test-method signature="SubmitOrd(java.util.HashMap)[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@3aa078fd]" started-at="2025-03-01T21:36:26 IST" name="SubmitOrd" data-provider="getData" finished-at="2025-03-01T21:36:30 IST" duration-ms="3280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Json@12345, email=jsondata@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrd -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@3aa078fd]" started-at="2025-03-01T21:36:30 IST" name="closeBrowser" finished-at="2025-03-01T21:36:30 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrwoser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@3aa078fd]" started-at="2025-03-01T21:36:30 IST" name="launchBrwoser" finished-at="2025-03-01T21:36:32 IST" duration-ms="1845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrwoser -->
+        <test-method signature="orderVerification(java.util.HashMap)[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@3aa078fd]" started-at="2025-03-01T21:36:32 IST" name="orderVerification" data-provider="getData" finished-at="2025-03-01T21:36:32 IST" depends-on-methods="TestFramework.Tests.PlaceOrdderTest.SubmitOrd" duration-ms="889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ZARA COAT 3, password=Auto@123, email=kcautotest@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderVerification -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@3aa078fd]" started-at="2025-03-01T21:36:32 IST" name="closeBrowser" finished-at="2025-03-01T21:36:33 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrwoser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@3aa078fd]" started-at="2025-03-01T21:36:33 IST" name="launchBrwoser" finished-at="2025-03-01T21:36:35 IST" duration-ms="1863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrwoser -->
+        <test-method signature="orderVerification(java.util.HashMap)[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@3aa078fd]" started-at="2025-03-01T21:36:35 IST" name="orderVerification" data-provider="getData" finished-at="2025-03-01T21:36:35 IST" depends-on-methods="TestFramework.Tests.PlaceOrdderTest.SubmitOrd" duration-ms="862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Json@12345, email=jsondata@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderVerification -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@3aa078fd]" started-at="2025-03-01T21:36:35 IST" name="closeBrowser" finished-at="2025-03-01T21:36:36 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestFramework.Tests.PlaceOrdderTest -->
+    </test> <!-- Submit Order -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,12 @@
+[
+	{
+		"email": "kcautotest@gmail.com",
+		"password": "Auto@123",
+		"productname": "ZARA COAT 3"
+	},
+	{
+		"email": "jsondata@gmail.com",
+		"password": "Json@12345",
+		"productname": "ADIDAS ORIGINAL"
+	}
+]

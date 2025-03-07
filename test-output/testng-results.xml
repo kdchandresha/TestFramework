@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="7" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-01T16:42:26 IST" name="Suite" finished-at="2025-03-01T16:42:47 IST" duration-ms="20380">
+    <groups>
+      <group name="purchase">
+        <method signature="PlaceOrdderTest.SubmitOrd(java.util.HashMap)[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@7bbc8656]" name="SubmitOrd" class="TestFramework.Tests.PlaceOrdderTest"/>
+        <method signature="PlaceOrdderTest.orderVerification(java.util.HashMap)[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@7bbc8656]" name="orderVerification" class="TestFramework.Tests.PlaceOrdderTest"/>
+      </group> <!-- purchase -->
+      <group name="Error Handling">
+        <method signature="ErrorValidation.SubmitOrdValidationError()[pri:0, instance:TestFramework.Tests.ErrorValidation@2bdd8394]" name="SubmitOrdValidationError" class="TestFramework.Tests.ErrorValidation"/>
+        <method signature="ErrorValidation.loginError()[pri:0, instance:TestFramework.Tests.ErrorValidation@2bdd8394]" name="loginError" class="TestFramework.Tests.ErrorValidation"/>
+      </group> <!-- Error Handling -->
+    </groups>
+    <test started-at="2025-03-01T16:42:26 IST" name="Error Validation" finished-at="2025-03-01T16:42:40 IST" duration-ms="13613">
+      <class name="TestFramework.Tests.ErrorValidation">
+        <test-method is-config="true" signature="launchBrwoser()[pri:0, instance:TestFramework.Tests.ErrorValidation@2bdd8394]" started-at="2025-03-01T16:42:26 IST" name="launchBrwoser" finished-at="2025-03-01T16:42:30 IST" duration-ms="3435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrwoser -->
+        <test-method signature="SubmitOrdValidationError()[pri:0, instance:TestFramework.Tests.ErrorValidation@2bdd8394]" started-at="2025-03-01T16:42:30 IST" name="SubmitOrdValidationError" finished-at="2025-03-01T16:42:32 IST" duration-ms="2387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrdValidationError -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestFramework.Tests.ErrorValidation@2bdd8394]" started-at="2025-03-01T16:42:32 IST" name="closeBrowser" finished-at="2025-03-01T16:42:32 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrwoser()[pri:0, instance:TestFramework.Tests.ErrorValidation@2bdd8394]" started-at="2025-03-01T16:42:32 IST" name="launchBrwoser" finished-at="2025-03-01T16:42:34 IST" duration-ms="1880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrwoser -->
+        <test-method retried="true" signature="loginError()[pri:0, instance:TestFramework.Tests.ErrorValidation@2bdd8394]" started-at="2025-03-01T16:42:34 IST" name="loginError" finished-at="2025-03-01T16:42:35 IST" duration-ms="570" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email  password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email  password.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at TestFramework.Tests.ErrorValidation.loginError(ErrorValidation.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginError -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestFramework.Tests.ErrorValidation@2bdd8394]" started-at="2025-03-01T16:42:35 IST" name="closeBrowser" finished-at="2025-03-01T16:42:35 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrwoser()[pri:0, instance:TestFramework.Tests.ErrorValidation@2bdd8394]" started-at="2025-03-01T16:42:35 IST" name="launchBrwoser" finished-at="2025-03-01T16:42:37 IST" duration-ms="1776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrwoser -->
+        <test-method signature="loginError()[pri:0, instance:TestFramework.Tests.ErrorValidation@2bdd8394]" started-at="2025-03-01T16:42:37 IST" name="loginError" finished-at="2025-03-01T16:42:39 IST" duration-ms="2368" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email  password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email  password.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at TestFramework.Tests.ErrorValidation.loginError(ErrorValidation.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginError -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestFramework.Tests.ErrorValidation@2bdd8394]" started-at="2025-03-01T16:42:40 IST" name="closeBrowser" finished-at="2025-03-01T16:42:40 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestFramework.Tests.ErrorValidation -->
+    </test> <!-- Error Validation -->
+    <test started-at="2025-03-01T16:42:26 IST" name="Submit Order" finished-at="2025-03-01T16:42:47 IST" duration-ms="20380">
+      <class name="TestFramework.Tests.PlaceOrdderTest">
+        <test-method is-config="true" signature="launchBrwoser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@7bbc8656]" started-at="2025-03-01T16:42:27 IST" name="launchBrwoser" finished-at="2025-03-01T16:42:29 IST" duration-ms="2611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrwoser -->
+        <test-method signature="SubmitOrd(java.util.HashMap)[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@7bbc8656]" started-at="2025-03-01T16:42:29 IST" name="SubmitOrd" data-provider="getData" finished-at="2025-03-01T16:42:35 IST" duration-ms="5450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ZARA COAT 3, password=Auto@123, email=kcautotest@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrd -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@7bbc8656]" started-at="2025-03-01T16:42:35 IST" name="closeBrowser" finished-at="2025-03-01T16:42:35 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrwoser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@7bbc8656]" started-at="2025-03-01T16:42:35 IST" name="launchBrwoser" finished-at="2025-03-01T16:42:37 IST" duration-ms="2132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrwoser -->
+        <test-method signature="SubmitOrd(java.util.HashMap)[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@7bbc8656]" started-at="2025-03-01T16:42:37 IST" name="SubmitOrd" data-provider="getData" finished-at="2025-03-01T16:42:40 IST" duration-ms="3248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Json@12345, email=jsondata@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrd -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@7bbc8656]" started-at="2025-03-01T16:42:40 IST" name="closeBrowser" finished-at="2025-03-01T16:42:41 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrwoser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@7bbc8656]" started-at="2025-03-01T16:42:41 IST" name="launchBrwoser" finished-at="2025-03-01T16:42:42 IST" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrwoser -->
+        <test-method signature="orderVerification(java.util.HashMap)[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@7bbc8656]" started-at="2025-03-01T16:42:42 IST" name="orderVerification" data-provider="getData" finished-at="2025-03-01T16:42:43 IST" depends-on-methods="TestFramework.Tests.PlaceOrdderTest.SubmitOrd" duration-ms="783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ZARA COAT 3, password=Auto@123, email=kcautotest@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderVerification -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@7bbc8656]" started-at="2025-03-01T16:42:43 IST" name="closeBrowser" finished-at="2025-03-01T16:42:43 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrwoser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@7bbc8656]" started-at="2025-03-01T16:42:43 IST" name="launchBrwoser" finished-at="2025-03-01T16:42:46 IST" duration-ms="2497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrwoser -->
+        <test-method signature="orderVerification(java.util.HashMap)[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@7bbc8656]" started-at="2025-03-01T16:42:46 IST" name="orderVerification" data-provider="getData" finished-at="2025-03-01T16:42:46 IST" depends-on-methods="TestFramework.Tests.PlaceOrdderTest.SubmitOrd" duration-ms="767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Json@12345, email=jsondata@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderVerification -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestFramework.Tests.PlaceOrdderTest@7bbc8656]" started-at="2025-03-01T16:42:46 IST" name="closeBrowser" finished-at="2025-03-01T16:42:47 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestFramework.Tests.PlaceOrdderTest -->
+    </test> <!-- Submit Order -->
+  </suite> <!-- Suite -->
+</testng-results>

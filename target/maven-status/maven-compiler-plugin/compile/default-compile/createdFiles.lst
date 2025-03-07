@@ -1,0 +1,8 @@
+TestFramework\Data\DataReader$1.class
+TestFramework\Data\DataReader.class
+TestFramework\pageobjects\LoginPage.class
+TestFramework\Resources\ExtentReporterNG.class
+TestFramework\pageobjects\AddToCart.class
+TestFramework\pageobjects\orderHistory.class
+TestFramework\ReusableClasses\AbstractComponent.class
+TestFramework\pageobjects\CartPage.class
